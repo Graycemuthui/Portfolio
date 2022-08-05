@@ -20,12 +20,12 @@
     <!-- Header -->
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="#" class="nav__logo">Grace Muthui</a>
+        <img src="./assets//img/logo.png" class="logo-img" alt="A logo" />
 
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid" id="navItems">
             <li class="nav__item">
-              <a href="#home" class="nav__link"
+              <a href="#home" class="nav__link active-link"
                 ><i class="fa-solid fa-house nav__icon"></i>Home</a
               >
             </li>
@@ -59,6 +59,8 @@
         </div>
 
         <div class="nav__btns">
+          <!-- THEME CHANGE BTN -->
+          <i class="fa-solid fa-moon change-theme" id="theme-button"></i>
           <div class="nav__toggle" id="nav-toggle">
             <i class="fa-solid fa-bars"></i>
           </div>
@@ -164,7 +166,7 @@
             </p>
             <div class="about__info">
               <div>
-                <span class="about__info-title">10+</span>
+                <span class="about__info-title">20+</span>
                 <span class="about__info-name"
                   >Completed <br />
                   projects</span
@@ -376,25 +378,149 @@
       </section>
 
       <!--==================== PORTFOLIO ====================-->
-      <section class="portfolio section" id="portfolio"></section>
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">My projects</span>
 
-      <!--==================== PROJECT IN MIND ====================-->
-      <section class="project section"></section>
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!-- PORTFOLIO 1 -->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                class="portfolio__img"
+                src="./assets/img/conference.png"
+                alt="conference page image"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Conference Page</h3>
+                <p class="portfolio__description">
+                  This is a website for an event page. It describes the program
+                  and also shows the speakers that will be attending the event
+                  and the program lineup.</p>
+                </p>
+                <a
+                  href="https://admirable-cendol-446843.netlify.app/"
+                  class="button button--flex button--small portfolio__button"
+                  >Live Demo
+                  <i class="fa-solid fa-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- PORTFOLIO 2 -->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                class="portfolio__img"
+                src="./assets/img/standings.jpg"
+                alt="standings page image"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Football Standings</h3>
+                <p class="portfolio__description">
+                  This a website page that consists of football standings for
+                  different clubs and each club has different leagues with the
+                  number of points obtained by each one of them.
+                </p>
+                <a
+                  href="https://gregarious-brigadeiros-a81bcb.netlify.app/"
+                  class="button button--flex button--small portfolio__button"
+                  >Live Demo
+                  <i class="fa-solid fa-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- PORTFOLIO 3 -->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                class="portfolio__img"
+                src="./assets/img/Scriptonauts.png"
+                alt="conference page image"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">News 360</h3>
+                <p class="portfolio__description">
+                  News360 is a free and open-source mobile app written in
+                  TypeScript, React, and then on the Ionic Framework for
+                  WordPress news blog owners. WordPress is the most popular CMS
+                  so we thought of creating an app for news blogs built on it.
+                  Features include a Home Screen, Feed Screen and Videos Screen.
+                </p>
 
-      <!--==================== TESTIMONIAL ====================-->
-      <section class="testimonial section"></section>
+                <a
+                  href="https://github.com/Scriptonauts/News360"
+                  class="button button--flex button--small portfolio__button"
+                  >Live Demo
+                  <i class="fa-solid fa-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Add Arrows -->
+          <div class="swiper-button-next">
+            <i class="fa-solid fa-angle-right swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="fa-solid fa-angle-left swiper-portfolio-icon"></i>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
 
       <!--==================== CONTACT ME ====================-->
-      <section class="contact section" id="contact"></section>
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact me</h2>
+        <span class="section__subtitle">Get in touch</span>
+        <div class="contact__container container grid"></div>
+        <div>
+          <div class="contact__information">
+            <i class="fa-solid fa-envelope contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Email</h3>
+              <span class="contact__subtitle">graycemuthui20@gmail.com</span>
+            </div>
+          </div>
+          <div class="contact__information">
+            <i class="fa-solid fa-location-dot contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__subtitle">Nairobi, Kenya</span>
+            </div>
+          </div>
+          <form action="" class="contact__form grid">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="" class="contact__label">Name</label>
+                <input type="text" class="contact__input" />
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">Email</label>
+                <input type="email" class="contact__input" />
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">Message</label>
+                <textarea
+                  name=""
+                  id=""
+                  cols="0"
+                  rows="7"
+                  class="contact__input"
+                ></textarea>
+              </div>
+              <div>
+                <a href="#" class="button button--flex">Send Message</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
 
-    <!--==================== FOOTER ====================-->
-    <footer class="footer"></footer>
+    <!-- SCROLL TOP -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="fa-solid fa-angle-up scrollup__icon"></i>
+    </a>
 
-    <!--==================== SCROLL TOP ====================-->
-
-    <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
