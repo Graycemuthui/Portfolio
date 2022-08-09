@@ -121,7 +121,7 @@ img {
 /* REUSABLE CSS CLASSES */
 .section {
   padding: 1rem 1rem;
-  margin: 1.5rem;
+  margin: 2rem;
 }
 
 .section__title {
@@ -986,5 +986,9 @@ img {
 
   .contact__inputs {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact {
+    margin-top: 2rem;
   }
 }
