@@ -957,7 +957,7 @@ img {
   }
 
   .services__container {
-    grid-template-columns: repeat(3, 238px);
+    grid-template-columns: repeat(1, 800px);
   }
 
   .portfolio__content {
@@ -985,6 +985,6 @@ img {
   }
 
   .contact__inputs {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
