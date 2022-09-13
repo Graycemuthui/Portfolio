@@ -1,6 +1,6 @@
 # Portfolio
 
-- This is my a project that entails my portfolio thats showcases my skills and services.
+- This is my portfolio thats showcases my skills and services.
 
 ## Built With
 
