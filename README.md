@@ -28,7 +28,7 @@
 
 ## Deployment
 
-- To view a live demo of the project you can click on this [link](https://leafy-cheesecake-60c1f0.netlify.app/).
+- To view a live demo of the project you can click on this [link](https://bespoke-dragon-55ceda.netlify.app/).
 
 ## 🤝 Contributing
 
