@@ -28,7 +28,7 @@
 
 ## Deployment
 
-- To view a live demo of the project you can click on this [link](https://calm-pika-c8de05.netlify.app/).
+- To view a live demo of the project you can click on this [link](https://grayceemuthui.netlify.app).
 
 ## 🤝 Contributing
 
